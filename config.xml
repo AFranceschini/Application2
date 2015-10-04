@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.antoine.myapp"
+        versionCode = ""
+        version     = "1.1.0" >
+
+	<name>My App</name>
+
+	<description>Mon app wordpress</description>
+
+	<author href="" email="">Antoine</author>
+
+	<gap:platform name="ios" />
+
+	<preference name="phonegap-version" value="cli-5.2.0" />
+
+	<preference name="DisallowOverscroll" value="true" />
+	<preference name="webviewbounce" value="false" />
+
+	<!-- PhoneGap plugin declaration -->
+	<gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
+	<gap:plugin name="cordova-plugin-network-information" source="npm" />
+
+	<!-- Icon and Splash screen declaration -->
+
+	<gap:plugin name="org.apache.cordova.statusbar" version="0.1.4" />
+	<gap:plugin name="com.phonegap.plugins.pushplugin" version="2.5.0" />
+	<gap:plugin name="com.adobe.plugins.gaplugin" version="2.4.0" />
+</widget>
