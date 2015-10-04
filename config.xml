@@ -5,7 +5,7 @@
         versionCode = ""
         version     = "1.1.0" >
 
-	<name>My App</name>
+	<name>Application</name>
 
 	<description>Mon app wordpress</description>
 
